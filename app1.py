@@ -176,20 +176,16 @@ p, li, label {
 # ----------------------
 # HERO SECTION
 # ----------------------
+st.markdown("""
+<div class='hero'>
+<h5>Sameer Patil - Data Analyst | MIS Analyst | Business Intelligence Analyst</h5>
+<h1>
+Transforming Data into Insights.Insights into Impact.
+</h1>   
 
-st.markdown(
-    """
-    <div class="hero">
-        <h1 class="hero-name">Sameer Patil</h1>
-        <div class="hero-role">
-            Data Analyst | MIS Analyst | Business Intelligence Analyst
-        </div>
-        <h1 class="hero-tagline">
-            Transforming Data into Insights — Insights into Impact.
-        </h1>
-    </div>
-    """,
-    unsafe_allow_html=True
+</div>
+""", unsafe_allow_html=True)
+st.divider()
 
 # =====================================================
 # ABOUT ME
