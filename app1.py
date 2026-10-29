@@ -8,7 +8,7 @@ import html
 # =====================================================
 
 st.set_page_config(
-    page_title="Sameer Patil | Data Analyst Portfolio",
+        page_title="Data Prism Portfolio",
     page_icon="📊",
     layout="wide"
 )
